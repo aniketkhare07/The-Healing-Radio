@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "838095856866",
+    "firebase_url": "https://the-healing-radio-7a56e-default-rtdb.firebaseio.com",
+    "project_id": "the-healing-radio-7a56e",
+    "storage_bucket": "the-healing-radio-7a56e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838095856866:android:0c5340254b76d6af1feabb",
+        "android_client_info": {
+          "package_name": "com.TheHealingRadio.radioadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838095856866-jnh2p7ckjvp6li3ud0hnsf5j3u4mm1bg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLAlr6e1PAJmMUKJEhghCLZ6uLtB5VP2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "838095856866-jnh2p7ckjvp6li3ud0hnsf5j3u4mm1bg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838095856866:android:37d67497ecf207861feabb",
+        "android_client_info": {
+          "package_name": "com.thehealingradio.TheHealingRadio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838095856866-jnh2p7ckjvp6li3ud0hnsf5j3u4mm1bg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLAlr6e1PAJmMUKJEhghCLZ6uLtB5VP2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "838095856866-jnh2p7ckjvp6li3ud0hnsf5j3u4mm1bg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

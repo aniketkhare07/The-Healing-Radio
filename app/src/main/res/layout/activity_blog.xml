@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".BlogActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/content">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:maxHeight="400dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp"
+                android:background="@drawable/ractangle_stroke"
+                android:backgroundTint="@color/darkgrey"
+                android:paddingBottom="@dimen/_10sdp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/bImage"
+                    android:src="@drawable/host_image"
+                    android:scaleType="centerCrop"
+                    android:maxHeight="400dp"
+                    android:layout_gravity="center" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/head"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:src="@drawable/logo1"
+                android:id="@+id/profilepic"
+                android:layout_gravity="center"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/header"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:paddingStart="@dimen/_10sdp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:textColor="@color/white"
+                    android:maxLines="2"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/playball_regular"
+                    android:textSize="@dimen/_23sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:id="@+id/btitle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/dateNtime"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:layout_weight="2">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11 jun 2021"
+                        android:textColor="@color/lightgrey"
+                        android:id="@+id/bdate" />
+
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11:41 am"
+                        android:textColor="@color/lightgrey"
+                        android:id="@+id/btime"
+                        android:layout_marginStart="@dimen/_20sdp"/>
+
+                </LinearLayout>
+
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Here goes the main blog wehatever you typed"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/white"
+            android:id="@+id/bcontent"
+            android:fontFamily="@font/baloobhai_regular"
+            android:paddingStart="@dimen/_25sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_8sdp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

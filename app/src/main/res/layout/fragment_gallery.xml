@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_10sdp"
+        android:orientation="vertical">
+
+<!--        Healing Imgae-->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/darkgrey"
+            android:background="@drawable/ractangle_stroke"
+            android:layout_height="@dimen/_280sdp"
+            android:layout_marginVertical="8dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Healing Images"
+                    android:textSize="@dimen/_22sdp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/baloobhai_regular"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgrey"
+                    android:layout_marginVertical="4dp"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/healRecycle"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+<!--        Event Images-->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/darkgrey"
+            android:background="@drawable/ractangle_stroke"
+            android:layout_height="@dimen/_280sdp"
+            android:layout_marginVertical="8dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Event Images"
+                    android:textSize="@dimen/_22sdp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/baloobhai_regular"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgrey"
+                    android:layout_marginVertical="4dp"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eventRecycle"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </com.google.android.material.card.MaterialCardView>
+
+<!--        Other Images-->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/darkgrey"
+            android:background="@drawable/ractangle_stroke"
+            android:layout_height="@dimen/_280sdp"
+            android:layout_marginVertical="8dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Other Images"
+                    android:textSize="@dimen/_22sdp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/baloobhai_regular"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgrey"
+                    android:layout_marginVertical="4dp"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/otherRecycle"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_150sdp"
+    android:layout_height="@dimen/_150sdp"
+    android:background="@drawable/ractangle_stroke"
+    android:backgroundTint="@color/darkgrey"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:padding="5dp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:id="@+id/healimg"
+        android:src="@drawable/host"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_5sdp"/>
+
+</com.google.android.material.card.MaterialCardView>

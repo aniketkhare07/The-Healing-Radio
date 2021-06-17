@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".SessionActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:fontFamily="@font/baloobhai_regular"
+        android:gravity="center"
+        android:text="Previous session"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_30sdp" />
+
+    <ImageView
+        android:id="@+id/sessionThumbnail"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="335dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/session_image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="216dp"
+        android:fontFamily="@font/baloobhai_regular"
+        android:gravity="center"
+        android:id="@+id/titlesession"
+        android:text="Title of session"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20sdp" />
+
+    <TextView
+        android:id="@+id/artistsession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="188dp"
+        android:fontFamily="@font/baloobhai_regular"
+        android:gravity="center"
+        android:text="Artist"
+        android:textColor="@color/lightgrey"
+        android:textSize="@dimen/_12sdp" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/session_control_panel">
+
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:progressBackgroundTint="@color/darkgrey"
+            android:thumbTint="@color/darkgrey"
+            android:id="@+id/seekBar"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="-17dp"
+            android:paddingStart="@dimen/_20sdp"
+            android:paddingEnd="@dimen/_20sdp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0:00"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
+                android:id="@+id/currentTiming"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0:00"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
+                android:id="@+id/endTiming"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_20sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/ic_rewind"
+                android:id="@+id/rewind"/>
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/ic_pause"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:id="@+id/play"/>
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/ic_baseline_stop_circle_24"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:id="@+id/stop"/>
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/ic_forward"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:id="@+id/forward"/>
+
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>

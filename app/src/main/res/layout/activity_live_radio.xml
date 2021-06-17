@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/live_radio_background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LiveRadio">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloobhai_regular"
+        android:text="Live Radio"
+        android:layout_marginBottom="@dimen/_80sdp"
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/ractangle_stroke"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_30sdp" />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ractangle_stroke"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloobhai_regular"
+            android:text="Sorry"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_30sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloobhai_regular"
+            android:text="Developer chutiya hai bhai. Usko abhi ye sab nhi aata. Live kese jate hai, gane live kese stream hote hai sath hi voice kese send hoga. Pr sab hoga jaldi hi hoga. Stay tuned with love and heal yourself."
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

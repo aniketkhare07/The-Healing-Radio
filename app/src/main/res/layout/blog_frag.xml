@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/_105sdp"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:paddingStart="@dimen/_10sdp"
+    android:paddingTop="@dimen/_5sdp"
+    android:orientation="vertical"
+    android:id="@+id/blog_frag"
+    android:weightSum="2"
+    android:background="@color/black">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/image"
+                    android:scaleType="centerCrop"
+                    android:layout_weight="1"
+                    android:src="@drawable/logo1"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1.6"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:padding="@dimen/_8sdp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_25sdp"
+                    android:id="@+id/title"
+                    android:text="Title will go here"
+                    android:textSize="@dimen/_20sdp"
+                    android:maxLines="2"
+                    android:autoSizeTextType="uniform"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/playball_regular" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/date"
+                        android:text="Date"
+                        android:textSize="@dimen/_12sdp"
+                        android:autoSizeTextType="uniform"
+                        android:textColor="@color/lightgrey"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/baloobhai_regular"/>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/time"
+                        android:text="time"
+                        android:textSize="@dimen/_12sdp"
+                        android:autoSizeTextType="uniform"
+                        android:textColor="@color/lightgrey"
+                        android:fontFamily="@font/baloobhai_regular"/>
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/darkgrey"
+        android:layout_marginTop="12dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:iconTint="@color/white"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_blog"
+        android:icon="@drawable/blogs"
+        android:iconTint="@color/white"
+        android:title="Blogs" />
+
+    <item
+        android:id="@+id/navigation_gallery"
+        android:icon="@drawable/gallery"
+        android:iconTint="@color/white"
+        android:title="Gallery" />
+
+    <item
+        android:id="@+id/navigation_sessions"
+        android:icon="@drawable/ic_sessions"
+        android:iconTint="#ffffff"
+        android:iconTintMode="src_over"
+        android:title="Sessions" />
+
+    <item
+        android:id="@+id/navigation_about"
+        android:icon="@drawable/about_us"
+        android:iconTint="@color/white"
+        android:title="About Us" />
+
+</menu>

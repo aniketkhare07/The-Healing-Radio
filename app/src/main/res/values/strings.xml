@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">The Healing Radio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">start</string>
+    <string name="close">close</string>
+    <string name="thought">“A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing.”</string>
+    <string name="about">We are hope over pessimism, we are elation over misery, we are peace over depression, in a single word we are \'Healing\'. Every single person is hurry in getting succeed. In way they face struggles, failures, up and downs, which take them to mental illness. Nowadays, everybody is depressed, sad or facing problem in life, they want solution. So here it is \'The Healing Radio\'. Here are we. for you. We fill up ones with energy and motivation with peace. We discuss over the hot topics\/problems in our live sessions. We enjoy amazing music. So enjoy your mood, find peace, find solution. Stay tuned and heal yourself with \'The Healing Radio\'.  </string>
+
+    <string name="we_do">We do live sessions, write blogs, discuss on various topics and enjoy music. We conduct interviews of stars who are in the period of their struggle or achieved their goal. Their experience will help you in your winnings, strategies to overcome the problems you\'re facing. So we bring you energy, motivation, experience and joy.</string>
+
+    <string name="where">We do live session/interviews on our official Instagram handle the_healing_radio. Soon we go \'on air\' on this platform too. We write our blogs and give updates on our app. The timing of the session is 10:30 pm. Go and listen to another healing episode today. Stay tuned with love and heal yourself. </string>
+
+    <string name="colorspinner">colorspinner</string>
+    <string-array name="spinner_items">
+        <item>Previous Sessions</item>
+        <item>Healing Top Playlist</item>
+    </string-array>
+</resources>

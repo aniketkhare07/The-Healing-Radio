@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginRight="@dimen/_10sdp"
+    android:background="@drawable/ractangle_stroke">
+
+
+    <RelativeLayout
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:padding="@dimen/_5sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/blog_image"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/host_image" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginStart="@dimen/_60sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:background="@drawable/ractangle_stroke">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/_7sdp">
+
+                <View
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:background="@drawable/ractangle_blue" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/blog_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    app:autoSizeTextType="uniform"
+                    android:gravity="center_vertical"
+                    android:fontFamily="@font/playball_regular"
+                    android:text="Title"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_19sdp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
