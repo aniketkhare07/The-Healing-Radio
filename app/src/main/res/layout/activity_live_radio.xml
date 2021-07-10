@@ -40,7 +40,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/baloobhai_regular"
-            android:text="Developer chutiya hai bhai. Usko abhi ye sab nhi aata. Live kese jate hai, gane live kese stream hote hai sath hi voice kese send hoga. Pr sab hoga jaldi hi hoga. Stay tuned with love and heal yourself."
+            android:text="This Section is being developed. Soon I will release update. Till then, keep healing yourself, stay tuned.
+                                          - with love"
             android:textColor="@color/white"
             android:textSize="@dimen/_15sdp" />
 
